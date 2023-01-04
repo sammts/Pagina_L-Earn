@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Iniciar Sesión | L - EARN</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/font.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/arriba.js"></script>
+</head>
+<body>
+    <span class="ir-arriba icon-arriba"></span>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <!-- <h1 class="logo">L - EARN</h1> -->
+                <br><a href="./index.html"><img src="img/L-Earn-3.png" class="dimension1"></a><br>
+            </div>
+            <div class="logo-container column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <a href="./inisesion.html" class="btn1">Iniciar Sesión</a>
+                    <a href="./registro.html" class="btn1">Regístrate</a>
+                    <!-- <span class="icon-usuario">Samuel Tapia</span><br> -->
+                </p>
+            </div>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="./index.html" class="menu__link">Inicio</a></li>
+                <li class="menu__item"><a href="perfil.html" class="menu__link">Perfil</a></li>
+                <li class="menu__item"><a href="cursos.html" class="menu__link">Cursos</a></li>
+                <li class="menu__item"><a href="aprendizaje.html" class="menu__link">Mi aprendizaje</a></li>
+                <li class="menu__item"><a href="cartera.html" class="menu__link">Cartera</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    
+    <section class="banner">
+        <img src="img/fondo8.jpg" alt="" class="banner__img">
+        <div class="banner__content">
+            INICIO DE SESIÓN
+        </div>
+    </section>
+    
+    <main class="main">
+        <section class="group our-team">
+            <div class="container container--flex"> 
+                <p style= "line-height: 30px; text-align: center" class="main__txt">
+                    
+                    <section class="group group--color">
+                        <div class="container">
+                          <h2 class="main__tittle">Inicia Sesión en tu cuenta de L-Earn</h2> 
+                        </div>
+                    </section>
+                                        
+                    <section class="form-register">    
+                        <form action="#" method="POST">   
+                            <!-- <br><br><h4>Inicia Sesión en tu cuenta de L-Earn</h4><br><br> -->
+                            <input class="controls" type="email" name= "ApellidoPaterno" id="ApellidoPaterno" placeholder="Correo Electrónico"><br><br>
+                            <input class="controls" type="password" name= "ApellidoMaterno" id="ApellidoMaterno" placeholder="Contraseña"><br><br>
+                            <input class="botons" type="submit" name="enviar" id="enviar" value="Iniciar Sesión"><br>
+                            <p><a href="#">He olvidado mi contraseña</a></p><br><hr style="color: #4a4b4a;"><br>
+                            <p>¿No tienes una cuenta? <a href="./registro.html">Regístrate</a></p><br><br>
+                        </form>
+                    </section>
+                    
+                    
+                    <br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+                                
+                </p> 
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="container container--flex">
+            <div class="column column--33">
+                <img src="img/L-Earn.png" class="dimension2">
+            </div>
+            <div class="column column--33">
+                <br><br><h2 class="column__title">¿Qué es L-Earn?</h2>
+                <p class="column__txt">En L-Earn buscamos ofrecer un incentivo para que más personas se motiven 
+                    no sólo a iniciar un curso con nosotros, si no tambien a concluirlo.</p>
+            </div>
+            <div class="column column--33">
+                <br><br><h2 class="column__title">Todas las secciones</h2>
+                <p class="column__txt"><a href="perfil.html" class="icon-punto">Perfil</a></p>
+                <p class="column__txt"><a href="cursos.html" class="icon-punto">Cursos</a></p>
+                <p class="column__txt"><a href="cartera.html" class="icon-punto">Cartera</a></p><br><br><br><br><br>
+            </div>
+            <p class="copy">©2023 L - EARN | Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script>
+        function abrir(){
+            document.getElementById("open").style.display="block";
+        }
+        function cerrar(){
+            document.getElementById("open").style.display="none";
+        }
+    </script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
+
