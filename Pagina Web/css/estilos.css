@@ -31,6 +31,12 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     margin: auto;
 }
+
+.container1 {
+    width: 100%;
+    text-align: center;
+}
+
 .container--cues {
     display: flex;
     flex-wrap: wrap;
@@ -218,6 +224,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.8em;
     font-family: 'Pacifico', cursive;
     font-weight: 100;
+}
+
+.main__txt2 {
+    text-align: center;
 }
 
 .column__title{
